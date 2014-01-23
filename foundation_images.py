@@ -13,9 +13,9 @@ from pelican import signals, contents
 import re
 
 replacementString = r'''<div class="row image-container">
-	<div class="large-12 columns text-center">
+	<div class="small-12 columns text-center">
 		<div class="row">
-			<div class="large-12 columns text-center image-image">
+			<div class="small-12 columns text-center image-image">
 				<img src="\1"/>
 			</div>
 		</div>
